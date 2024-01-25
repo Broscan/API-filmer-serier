@@ -84,7 +84,21 @@ namespace API_films_and_series.Controllers
             Film.Add(item);
 
             return Ok(item);
+        }
 
+        [HttpDelete]
+        public ActionResult DeleteItem(int id)
+        {
+            var item = Film.FirstOrDefault(f => f.Id == id);
+
+            if (item == null)
+            {
+                return NotFound("Id not found");
+            }
+
+            Film.Remove(item);
+
+            return Ok($"{item.Name} has successfully been removed");
 
         }
 
