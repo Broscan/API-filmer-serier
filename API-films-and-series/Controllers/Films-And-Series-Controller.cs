@@ -29,10 +29,13 @@ namespace API_films_and_series.Controllers
                 // Returnera en lista med filmer
                 return Ok(Film);
 
+
             }
 
             return NotFound("Could not find dogs");
         }
+
+        // TEST TEST
 
         //[HttpGet]
         //[Route("{id}")]

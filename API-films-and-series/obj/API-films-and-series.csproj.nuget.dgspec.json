@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CarlW\\OneDrive\\Skrivbord\\API\\API-films-and-series\\API-films-and-series\\API-films-and-series.csproj": {}
+    "C:\\Users\\Carl Wessel\\Desktop\\API-Övningar\\API-filmer-serier\\API-films-and-series\\API-films-and-series.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CarlW\\OneDrive\\Skrivbord\\API\\API-films-and-series\\API-films-and-series\\API-films-and-series.csproj": {
+    "C:\\Users\\Carl Wessel\\Desktop\\API-Övningar\\API-filmer-serier\\API-films-and-series\\API-films-and-series.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CarlW\\OneDrive\\Skrivbord\\API\\API-films-and-series\\API-films-and-series\\API-films-and-series.csproj",
+        "projectUniqueName": "C:\\Users\\Carl Wessel\\Desktop\\API-Övningar\\API-filmer-serier\\API-films-and-series\\API-films-and-series.csproj",
         "projectName": "API-films-and-series",
-        "projectPath": "C:\\Users\\CarlW\\OneDrive\\Skrivbord\\API\\API-films-and-series\\API-films-and-series\\API-films-and-series.csproj",
-        "packagesPath": "C:\\Users\\CarlW\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CarlW\\OneDrive\\Skrivbord\\API\\API-films-and-series\\API-films-and-series\\obj\\",
+        "projectPath": "C:\\Users\\Carl Wessel\\Desktop\\API-Övningar\\API-filmer-serier\\API-films-and-series\\API-films-and-series.csproj",
+        "packagesPath": "C:\\Users\\Carl Wessel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carl Wessel\\Desktop\\API-Övningar\\API-filmer-serier\\API-films-and-series\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CarlW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carl Wessel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

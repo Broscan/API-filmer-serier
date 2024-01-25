@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "c49MnmYz/VbGyS5U73aqiK85ovwVZRql03IiYFhA26qFhlCCKWLlKGCdVYk1c+vmlNmeFDfNT/COi9XrI5DQcw==",
+  "dgSpecHash": "eFoz4KFX8wQuDX6ndzGsycSbPE2h9cDfCT31EFoi351C+TeyWXvDT2Eg0FLUI/3QaU9TbkywbNlSnBojAcg+Kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CarlW\\OneDrive\\Skrivbord\\API\\API-films-and-series\\API-films-and-series\\API-films-and-series.csproj",
+  "projectFilePath": "C:\\Users\\Carl Wessel\\Desktop\\API-Övningar\\API-filmer-serier\\API-films-and-series\\API-films-and-series.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CarlW\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\CarlW\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\CarlW\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\CarlW\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\CarlW\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\CarlW\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    "C:\\Users\\Carl Wessel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Carl Wessel\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Carl Wessel\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Carl Wessel\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Carl Wessel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Carl Wessel\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
   "logs": []
 }
