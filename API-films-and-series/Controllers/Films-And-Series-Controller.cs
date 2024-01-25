@@ -28,7 +28,6 @@ namespace API_films_and_series.Controllers
                 // Returnera en lista med filmer
                 return Ok(Film);
 
-
             }
 
             return NotFound("Could not find dogs");
@@ -38,7 +37,7 @@ namespace API_films_and_series.Controllers
         [Route("{id}")]
         public ActionResult<Films?> Get(int id)
         {
-            Films? film = Film.FirstOrDefault(d => d.Id == id);
+            Films? film = Film.FirstOrDefault(f => f.Id == id);
 
             if (film == null)
             {
@@ -63,6 +62,29 @@ namespace API_films_and_series.Controllers
             }
 
             return BadRequest("Could not add film. Check your JSON and try again!");
+
+        }
+
+        [HttpPut]
+        public ActionResult UpdateItem(int id, Films film)
+        {
+            var item = Film.FirstOrDefault(f => f.Id == id);
+
+            if (item == null)
+            {
+                return NotFound($"{film.Id} Id not found");
+            }
+
+            item.Id = id;
+            item.Name = film.Name;
+            item.Director = film.Director;
+            item.Genre = film.Genre;
+            item.Rating = film.Rating;
+
+            Film.Add(item);
+
+            return Ok(item);
+
 
         }
 
