@@ -18,7 +18,6 @@ namespace API_films_and_series.Controllers
          new Films { Id = 5, Name = "Kingsman", Director = "Matthew Vaughn", Genre = "Action", Rating = 7 },
          new Films { Id = 6, Name = "Interstellar", Director = "Christopher Nolan", Genre = "Action", Rating = 9 },
          new Films { Id = 7, Name = "American Pie", Director = "Paul Weitz", Genre = "Comedy", Rating = 5 },
-
         };
 
         [HttpGet]
@@ -35,39 +34,37 @@ namespace API_films_and_series.Controllers
             return NotFound("Could not find dogs");
         }
 
-        // TEST TEST
+        [HttpGet]
+        [Route("{id}")]
+        public ActionResult<Films?> Get(int id)
+        {
+            Films? film = Film.FirstOrDefault(d => d.Id == id);
 
-        //[HttpGet]
-        //[Route("{id}")]
-        //public ActionResult<Dog?> Get(int id)
-        //{
-        //    Dog? dog = Dogs.FirstOrDefault(d => d.Id == id);
+            if (film == null)
+            {
+                // Kunde inte hitta filmen med det id:t
 
-        //    if (dog == null)
-        //    {
-        //        // Kunde inte hitta hunden med det id:t
+                // Returnera ett statusmeddelande 404
+                return NotFound("That Dog was not found"); // ActionResult som vi kan returnera
+            }
 
-        //        // Returnera ett statusmeddelande 404
-        //        return NotFound("That Dog was not found"); // ActionResult som vi kan returnera
-        //    }
+            // Returnera en film med id
+            return Ok(film);
+        }
 
-        //    // Returnera en hund med id
-        //    return Ok(dog);
-        //}
+        [HttpPost]
+        public ActionResult Post(Films? film)
+        {
+            if (film != null)
+            {
+                Film.Add(film);
 
-        //[HttpPost]
-        //public ActionResult Post(Dog? dog)
-        //{
-        //    if (dog != null)
-        //    {
-        //        Dogs.Add(dog);
+                return Ok("New film added!");
+            }
 
-        //        return Ok("Dog added!");
-        //    }
+            return BadRequest("Could not add film. Check your JSON and try again!");
 
-        //    return BadRequest("Could not add dog. Check your JSON and try again!");
-
-        //}
+        }
 
     }
 }
